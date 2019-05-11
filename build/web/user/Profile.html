@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.v2{
+  border-left: 5px solid grey;
+  height: 640px;
+  position: absolute;
+  left: 50%;
+  margin-left: 150px;
+  top: 0;
+background-image: url("img5.jpg");
+}
+
+.vl {
+  border-left: 5px solid grey;
+  height: 640px;
+  position: absolute;
+  left: 50%;
+  margin-left: -350px;
+  top: 0;
+ background-image: url("img4.jpg");
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Dashboard.html">Dashboard</a>
+  <a href="Profile.html">Profile</a>
+  <a href="Complaint.html">Complaint</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<h1><font color="Blue">PRANAY</font> <font color="Grey">SHUKLA</font></h1>
+<img src="img3.jpg" class="w3-round-xlarge" alt="Norway" style="width:18%"><br>
+<span style="background-color: #FFFF00">University Id:- 1611981280</span><br><br>
+<span style="background-color: #FFFF00">Date of Birth:- 21-01-1999</span><br><br>
+<span style="background-color: #FFFF00">Email:- pranay.cse16@gamil.com</span><br><br>
+<span style="background-color: #FFFF00">Gender:- Male</span><br><br>
+<span style="background-color: #FFFF00">Category:- General</span><br><br>
+<span style="background-color: #FFFF00">Mobile Number:- 9855185779</span><br><br>
+<span style="background-color: #FFFF00">Nationality:- India</span>
+<div class="vl" > 
+<span style="color:red" ><h2>----------COURSE DETAILS:</h2></span><br>
+           <h3><br>University:- CU<br><br>
+            Degree:- BE<br><br>
+            Batch: 2016<br><br>
+            Institute:- Chitkara School of Engineering &Technology<br><br>
+             Branch:- CSE</h3>
+<hr>
+<span style="color:darkblue" ><h2>----------PERSONAL INFO:</h2></span><br><br>
+            <h3>Blood Group:- O+<br><br>
+             Father's Name:- Mr.H.P.Shukla<br><br>
+             Mother's Name:- Mrs.Praveen Shukla<br><br>
+              City:- Kapurthala<br><br>
+              State:- Punjab</h3>
+
+</div>
+<div class="v2" > 
+<hr>
+<span style="color:green" ><h2>----------CONTACT INFO:</h2></span><br><br>
+<h3>Address:- B-6 Sainik School Kapurthala campus,Punjab<br><br>
+           Parent Contact No:- 6284052434<br><br>
+           Parent-email:- hpshukla@gmail.com </h3>
+<hr>
+<span style="color:orange" ><h2>----------HOSTEL ALLOTTED:</h2></span><br><br>
+<h3>Name:- BOSE<br><br>
+         RoomNo:- 323<br><br>
+         Mentor Name:- Parul Datta</h3>
+</div>
+</body>
+</html>
