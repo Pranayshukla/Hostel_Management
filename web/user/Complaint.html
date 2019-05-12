@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+body 
+{
+     background: url('https://static-communitytable.parade.com/wp-content/uploads/2014/03/rethink-target-heart-rate-number-ftr.jpg') fixed;
+ 
+   background-size: cover;
+
+}
+
+
+*[role="form"] {
+ 
+   max-width: 530px;
+ 
+   padding: 15px;
+
+    margin: 0 auto;
+
+    border-radius: 0.3em;
+ 
+   background-color: #f2f2f2;
+
+}
+
+
+*[role="form"] h2{ 
+    font-family: 'Open Sans' , sans-serif;
+
+    font-size: 40px;
+
+    font-weight: 600;
+
+    color: #000000;
+
+    margin-top: 5%;
+ 
+   text-align: center;
+
+    text-transform: uppercase;
+
+    letter-spacing: 4px;
+
+}
+
+
+button {
+	background:#0099ff;
+background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+	background:#ff0000;
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Dashboard.html">Dashboard</a>
+  <a href="Profile.html">Profile</a>
+  <a href="Complaint.html">Complaint</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   <div class="container">
+
+            <form class="form-horizontal" role="form">
+  
+              <marquee><h1>HOSTEL COMMITTEE,CHITKARA UNIVERSITY</h1></marquee>
+
+<br>
+<h3 align="center"><u>COMPLAINT FORM</u></h3>
+                <div class="form-group">
+   
+                 <label for="Name" class="col-sm-3 control-label">Name</label>
+
+                    <div class="col-sm-9">
+        
+                <input type="text" id="Name" placeholder="Enter your Name" class="form-control" autofocus required>
+                   </div>
+  
+              </div><br>
+ 
+ 
+<div class="form-group">
+   
+                 <label for="Id" class="col-sm-3 control-label">Id</label>
+  
+                  <div class="col-sm-9">
+   
+                     <input type="text" id="Id" placeholder="Enter your Id" class="form-control" autofocus required>
+  
+                  </div>
+   
+             </div>
+
+ <br>
+ 
+<div class="form-group">
+   
+                 <label for="Hostel" class="col-sm-3 control-label">Hostel</label>
+  
+                  <div class="col-sm-9">
+   
+                     <input type="text" id="Hostel" placeholder="Enter your Hostel Name" class="form-control" autofocus required>
+  
+                  </div>
+   
+             </div>
+
+ <br>
+ 
+               <div class="form-group">
+   
+                 <label for="Room Number" class="col-sm-3 control-label">Room Number</label>
+  
+                  <div class="col-sm-9">
+   
+                     <input type="text" id="Room Number" placeholder="Enter your Room Number" class="form-control" autofocus required>
+  
+                  </div>
+   
+             </div>
+
+   <br>
+
+ <div class="form-group">
+   ++
+                 <label for="Floor" class="col-sm-3 control-label">Floor</label>
+  
+                  <div class="col-sm-9">
+   
+                     <input type="text" id="Floor" placeholder="Enter your Floor" class="form-control" autofocus required>
+  
+                  </div>
+   
+             </div>
+
+ <br>
+ 
+<div class="form-group">
+   
+                Type of Complaints <select>
+  <option value="Electricity">Electricity</option>
+  <option value="Theft">Theft</option>
+  <option value="Breakage">Breakage</option>
+  <option value="Carpentry">Carpentry</option>
+</select>
+             </div>
+
+   <br>
+ 
+<div class="form-group">
+   
+                 <label for="Complaint Date" class="col-sm-3 control-label">Complaint Date</label>
+  
+                  <div class="col-sm-9">
+   
+                     <input type="text" id="Complaint Date" placeholder="00-00-00" class="form-control" autofocus required>
+  
+                  </div>
+   
+             </div>
+
+  <br>
+ 
+<div class="form-group">
+   
+                 <label for="Brief Info." class="col-sm-3 control-label">Brief Info.</label>
+  
+                  <div class="col-sm-9">
+   
+                     <textarea>Enter few more specific details</textarea>
+  
+                  </div>
+   
+             </div>
+
+  <br>
+ 
+              <button type="submit" >Register</button>
+ 
+           </form> 
+       </div>
+</body>
+</html>
