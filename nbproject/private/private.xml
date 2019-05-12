@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/controller/AddComplaintController.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/controller/SecondServlet.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/user/addComplaint.jsp</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/db/DbConnection.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/operation/ProfileOperation.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/admin/showComplaint.jsp</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/controller/AddStudentController.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/operation/UserOperation.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/dao/ComplaintDao.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/admin/addStudent.jsp</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/Login.html</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/user/Dashboard.html</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/index.html</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/user/dashboard.jsp</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/dao/UserDao.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/Profile.html</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/controller/LoginController.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/db/Provider.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/user/Complaint.html</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/src/java/chitkara/dao/ProfileDao.java</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/admin/admindashboard.jsp</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/admin/Dashboard.html</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/admin/Complaint.html</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/user/profile.jsp</file>
+            <file>file:/C:/Users/Pranay/Documents/NetBeansProjects/HOSTEL_MANAGEMENT/web/user/Profile.html</file>
+        </group>
+    </open-files>
+</project-private>
